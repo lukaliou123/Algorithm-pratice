@@ -45,8 +45,6 @@ public class HeapSort {
         arr[i] = arr[j];
         arr[j] = temp;
     }
-
-    // 堆排序的主函数
     public static void sort(int[] arr) {
         int n = arr.length;
 
@@ -61,4 +59,6 @@ public class HeapSort {
             heapify(arr, i, 0);
         }
     }
+    // 堆排序的主函数
+
 }
